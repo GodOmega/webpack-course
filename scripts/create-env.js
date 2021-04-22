@@ -1,3 +1,3 @@
-const fs = requrire("fs");
+const fs = require("fs");
 console.log("test");
-fs.writeFileSync("./.env", `API=${process.env.api}\n`);
+fs.writeFileSync("./.env", `API=${process.env.API}\n`);
